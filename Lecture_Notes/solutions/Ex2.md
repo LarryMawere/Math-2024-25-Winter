@@ -331,6 +331,7 @@ $$
 \paragraph{Step 2: Compute \( x \) and \( y \)}
 
 For \( x \), replace the first column of \( A \) with \( B \):
+
 $$
 A_x = 
 \begin{bmatrix}
@@ -343,7 +344,63 @@ A_x =
 -2 & 5
 \end{vmatrix}
 = (7)(5) - (-
+$$
+## Problem 9
 
 
+$$
+x + 2y - 2z = 6
+$$
+$$
+2x + y = 0
+$$
+$$
+3x + 2y + z = -1
+$$
+
+## Problem 10
+
+\\ **using the inverse matrix method:**
+
+1. 
+$$
+x + 2y + 3z = 5
+$$
+$$
+2x + y = 3
+$$
+$$
+3x + 2y = 3
+$$
+
+Write the system of equations as:
+
+$$
+\mathbf{A} \cdot \mathbf{x} = \mathbf{b}
+$$
+
+Where 
+
+$$
+\mathbf{A} =
+\begin{bmatrix}
+1 & 2 & 3 \\
+2 & 1 & 0 \\
+3 & 2 & 1
+\end{bmatrix}
+, \quad 
+\mathbf{b} =
+\begin{bmatrix}
+5 \\
+3 \\
+3
+\end{bmatrix}
+$$
+
+The solution is:
+
+$$
+\mathbf{x} = \mathbf{A}^{-1} \cdot \mathbf{b}
+$$
 
 
