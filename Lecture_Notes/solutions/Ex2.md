@@ -348,59 +348,42 @@ $$
 ## Problem 9
 
 
-$$
-x + 2y - 2z = 6
-$$
-$$
-2x + y = 0
-$$
-$$
-3x + 2y + z = -1
-$$
+
 
 ## Problem 10
 
 \\ **using the inverse matrix method:**
 
-1. 
-$$
-x + 2y + 3z = 5
-$$
-$$
-2x + y = 3
-$$
-$$
-3x + 2y = 3
-$$
+## Solution of Linear Equations by Matrix Inversion
 
-Write the system of equations as:
+### 1.
 
 $$
-\mathbf{A} \cdot \mathbf{x} = \mathbf{b}
+\begin{aligned}
+x + 2y + 3z &= -3 \\
+2y + 3z &= -4 \\
+3z &= 3
+\end{aligned}
 $$
 
-Where 
-
+#### Solution:
 $$
-\mathbf{A} =
-\begin{bmatrix}
-1 & 2 & 3 \\
-2 & 1 & 0 \\
-3 & 2 & 1
-\end{bmatrix}
-, \quad 
-\mathbf{b} =
-\begin{bmatrix}
-5 \\
-3 \\
-3
-\end{bmatrix}
+x = 1, \quad y = -\frac{7}{2}, \quad z = 1
 $$
 
-The solution is:
+---
+
+### 2. Solve the system of linear equations using the inverse matrix method:
 
 $$
-\mathbf{x} = \mathbf{A}^{-1} \cdot \mathbf{b}
+\begin{aligned}
+x - 2y + 3z &= 41 \\
+4x + 5y + 6z &= 93 \\
+7x + 8y + 9z &= 145
+\end{aligned}
 $$
 
-
+#### Solution:
+$$
+x = \frac{11}{2}, \quad y = 0, \quad z = \frac{71}{6}
+$$
