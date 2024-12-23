@@ -33,17 +33,13 @@ $$
 
 ---
 
-4. Calculate the length of vector \( \mathbf{c = [1,2,3]} \) and find its unit vector.
+4. Calculate the length of vector \( {c = [1,2,3]} \) and find its unit vector.
 
 {Length:}
 $$
 \|\mathbf{c}\| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14}
 $$
 
-{Unit vector:}
-$$
-\mathbf{c_u} = \frac{\mathbf{c}}{\|\mathbf{c}\|} = \left[\frac{1}{\sqrt{14}}, \frac{2}{\sqrt{14}}, \frac{3}{\sqrt{14}}\right]
-$$
 
 ---
 
@@ -151,52 +147,224 @@ $$
 
 ---
 
-## 14. Equations of Lines on a Plane
+#  Equations of Lines on a Plane: Detailed Solutions
 
-1. The line passes through points \( A(1,2) \) and \( B(3,4) \). Find the equation of the line.
+---
 
-Slope:
+## **1. The line passes through points A(1, 2) and B(3, 4). Find the equation of the line.**
+
+### **Solution**
+
+To find the equation of a line passing through two points, we compute the **slope** of the line using the formula:
+
 $$
-m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{4 - 2}{3 - 1} = 1
+m = \frac{y_2 - y_1}{x_2 - x_1}
 $$
-Equation:
+
+where \( (x_1, y_1) = (1, 2) \) and \( (x_2, y_2) = (3, 4) \).
+
+Substitute the given points:
+
 $$
-y - 2 = 1(x - 1) \quad \implies \quad y = x + 1
+m = \frac{4 - 2}{3 - 1} = \frac{2}{2} = 1
+$$
+
+The slope of the line is \( m = 1 \).
+
+Next, use the **point-slope form** of a line's equation:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+Substitute \( m = 1 \), \( x_1 = 1 \), and \( y_1 = 2 \):
+
+$$
+y - 2 = 1(x - 1)
+$$
+
+Distribute:
+
+$$
+y - 2 = x - 1
+$$
+
+Rearrange:
+
+$$
+y = x + 1
+$$
+
+### ✅ **Final Answer**
+
+The equation of the line is:
+
+$$
+\mathbf{y = x + 1}
 $$
 
 ---
 
-2. The line passes through point \( A(1,2) \) and is parallel to \( y = 2x + 3 \).
+## **2. The line passes through point A(1, 2) and is parallel to the line y = 2x + 3. Find the equation of the line.**
 
-Same slope (\( m = 2 \)):
+### **Solution**
+
+#### **Step 1: Find the slope of the given line**
+
+The given line's equation is \( y = 2x + 3 \), so its slope is:
+
 $$
-y - 2 = 2(x - 1) \quad \implies \quad y = 2x
+m = 2
+$$
+
+#### **Step 2: Write the equation of a new line passing through \( A(1, 2) \) with the same slope**
+
+Using the **point-slope form**:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+Substitute \( m = 2 \), \( x_1 = 1 \), and \( y_1 = 2 \):
+
+$$
+y - 2 = 2(x - 1)
+$$
+
+Distribute:
+
+$$
+y - 2 = 2x - 2
+$$
+
+Rearrange:
+
+$$
+y = 2x
+$$
+
+### ✅ **Final Answer**
+
+The equation of the line is:
+
+$$
+\mathbf{y = 2x}
 $$
 
 ---
 
-3. The line passes through \( A(1,2) \) and is perpendicular to \( y = 2x + 3 \).
+## **3. The line passes through point A(1, 2) and is perpendicular to the line y = 2x + 3. Find the equation of the line.**
 
-Perpendicular slope \( m = -\frac{1}{2} \):
+### **Solution**
+
+#### **Step 1: Find the slope of the given line**
+
+The given line's equation is \( y = 2x + 3 \), so its slope is:
+
 $$
-y - 2 = -\frac{1}{2}(x - 1) \quad \implies \quad y = -\frac{1}{2}x + \frac{5}{2}
+m = 2
+$$
+
+#### **Step 2: Determine the perpendicular slope**
+
+The slope of a perpendicular line is the **negative reciprocal** of the original slope:
+
+$$
+m_\perp = -\frac{1}{m} = -\frac{1}{2}
+$$
+
+#### **Step 3: Write the equation of the line through \( A(1, 2) \) with slope \( m = -\frac{1}{2} \):**
+
+Using the **point-slope form**:
+
+$$
+y - y_1 = m(x - x_1)
+$$
+
+Substitute \( m = -\frac{1}{2} \), \( x_1 = 1 \), and \( y_1 = 2 \):
+
+$$
+y - 2 = -\frac{1}{2}(x - 1)
+$$
+
+Distribute:
+
+$$
+y - 2 = -\frac{1}{2}x + \frac{1}{2}
+$$
+
+Rearrange:
+
+$$
+y = -\frac{1}{2}x + \frac{5}{2}
+$$
+
+### ✅ **Final Answer**
+
+The equation of the line is:
+
+$$
+\mathbf{y = -\frac{1}{2}x + \frac{5}{2}}
 $$
 
 ---
-4. We have two lines \( y = 2x + 3 \) and \( y = 3x + 2 \). Find their intersection point and angle.
 
-Intersection:
+## **4. We have two lines \( y = 2x + 3 \) and \( y = 3x + 2 \). Find the intersection point and calculate the angle between them.**
+
+### **Step 1: Find the intersection of the two lines**
+
+Equating their equations:
+
 $$
-x = 1, \; y = 5 \quad \text{(Point: \( (1,5) \))}
+2x + 3 = 3x + 2
 $$
-Angle:
+
+Rearrange:
+
 $$
-\tan \theta = \frac{1}{7}, \quad \theta = \tan^{-1} \frac{1}{7}
+- x + 3 = 2
+$$
+
+Solve for \( x \):
+
+$$
+x = 1
+$$
+
+Substitute \( x = 1 \) into either equation, for instance \( y = 2x + 3 \):
+
+$$
+y = 2(1) + 3 = 5
+$$
+
+### ✅ **Intersection point**
+
+The intersection point is:
+
+$$
+\mathbf{(1, 5)}
 $$
 
 ---
-{5. Find a line parallel to \( {v = [2,3]} \) through \( A(1,2) \):}
+
+### **Step 2: Calculate the angle between the two lines**
+
+Using the formula for the angle between two lines with slopes \( m_1 \) and \( m_2 \):
+
 $$
-y = \frac{3}{2}x
+\tan(\theta) = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|
 $$
+
+Substitute \( m_1 = 2 \), \( m_2 = 3 \):
+
+$$
+\tan(\theta) = \left| \frac{3 - 2}{1 + 3 \cdot 2} \right| = \frac{1}{7}
+$$
+
+###  **Final Results**
+
+- **Intersection Point:** \( (1, 5) \)
+- **Angle between the two lines:** 
+$$ \mathbf(\tan^{-1}\left(\frac{1}{7}\right) )$$
+---
 
